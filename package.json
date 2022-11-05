@@ -1,0 +1,26 @@
+{
+  "name": "node-dice",
+  "version": "1.0.0",
+  "bin": {
+    "roll-dice": "./bin/cli.js"
+  },
+  "description": "Assignment 03: Create a module-based line Node.js package (with CLI)",
+  "main": "./lib/roll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-fall/a03-duyali00.git"
+  },
+  "author": "duyali00",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-fall/a03-duyali00/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-fall/a03-duyali00#readme",
+  "dependencies": {
+    "minimist": "^1.2.7"
+  }
+}
